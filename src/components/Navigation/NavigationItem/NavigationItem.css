@@ -1,0 +1,25 @@
+.NavigationItem{
+    box-sizing: border-box;
+    display: block;
+}
+
+@media (min-width: 500px) {
+    .NavigationItem{
+        display: flex;
+        width: auto;
+        align-items: center;
+        margin: 0;
+    }
+
+    .NavigationItem a{
+        color: black;
+        height: 100%;
+        padding: 16px;
+        margin: 5px;
+    }
+
+    .NavigationItem a:hover{
+        color: #6772e5;
+    }
+}
+

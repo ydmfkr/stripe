@@ -1,0 +1,15 @@
+.NavigationItemsSecondary {
+    list-style: none;
+    margin: 0;
+    align-items: center;
+    flex-flow: column;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+
+@media (min-width: 740px) {
+    .NavigationItemsSecondary {
+        flex-flow: row;
+    }
+}
