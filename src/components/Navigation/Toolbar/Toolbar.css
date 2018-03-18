@@ -5,11 +5,11 @@
     top: 10px;
     left: 0;
     box-sizing: border-box;
-    justify-content: space-around;
+    justify-content: space-evenly;
     display: flex;
     align-items: center;
     background-color: transparent;
-    color: black;
+    color: white;
     z-index: 500;
 }
 

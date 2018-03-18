@@ -1,16 +1,18 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Test from "./Test"
 import {Switch, Route} from 'react-router-dom'
+import Layout from "./containers/Layout/Layout"
+import HomePage from "./containers/HomePage/HomePage"
 
 class App extends Component {
 	render() {
 		return (
 			<div>
-				<Switch>
-					<Route path='/' component={Test}/>
-				</Switch>
+				<Layout>
+					<Switch>
+						<Route path='/' component={HomePage}/>
+					</Switch>
+				</Layout>
 			</div>
 		);
 	}
