@@ -13,7 +13,7 @@ const Card = (props) => {
 
 							</h3>
 							<p className="SubHeading">
-								A Complete Commerce Toolkit, Built For Developers
+								A Complete Commerce Toolkit, Built For Developers.
 							</p>
 						</div>
 					</a>
@@ -22,11 +22,11 @@ const Card = (props) => {
 					<a href="/subscriptions" className="Subscriptions">
 						<div>
 							<h3 className="Heading">
-								Payments
+								Subscriptions
 
 							</h3>
 							<p className="SubHeading">
-								A Complete Commerce Toolkit, Built For Developers
+								The Smart Engine for Recurring Payments.
 							</p>
 						</div>
 					</a>
@@ -35,11 +35,11 @@ const Card = (props) => {
 					<a href="/connect" className="Connect">
 						<div>
 							<h3 className="Heading">
-								Payments
+								Connect
 
 							</h3>
 							<p className="SubHeading">
-								A Complete Commerce Toolkit, Built For Developers
+								Everything platforms need to get sellers paid.
 							</p>
 						</div>
 					</a>
