@@ -1,0 +1,8 @@
+.NewPill {
+    padding: 3px 7px;
+    font-size: 12px;
+    background-color: #24b47e;
+    border-radius: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}

@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import Toolbar from "../../components/Navigation/Toolbar/Toolbar"
+import './Layout.css'
 
 class Layout extends Component {
 
@@ -11,7 +12,7 @@ class Layout extends Component {
 					<Toolbar/>
 				</div>
 
-				<main>
+				<main className="Main">
 					{this.props.children}
 				</main>
 			</div>

@@ -1,0 +1,40 @@
+.HeaderContentAnnounce{
+    z-index: 300;
+    position: absolute;
+    color: white;
+    align-items: center;
+    display: flex;
+    margin-top: -3%;
+}
+
+
+
+.HeaderContentContainer h1{
+    margin-top: 55px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.HeaderContentContainer p{
+    max-width: 40%;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.ButtonHolder{
+    margin-top: 60px;
+}
+
+@media (min-width: 670px) {
+    .HeaderContentAnnounce{
+        height: 600px;
+    }
+}
+
+@media (min-width: 880px) {
+    .HeaderContentAnnounce{
+        height: 760px;
+    }
+}

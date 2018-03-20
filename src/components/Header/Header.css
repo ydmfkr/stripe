@@ -1,3 +1,7 @@
+.Header{
+    height: 100%;
+}
+
 .HeaderBackgroundStripes {
     height: 480px;
     display: flex;
@@ -5,6 +9,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 100;
 }
 
 .MainBackground {

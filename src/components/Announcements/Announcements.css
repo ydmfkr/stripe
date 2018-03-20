@@ -1,0 +1,15 @@
+.Announcements {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 20px;
+    display: inline;
+    margin-bottom: 55px;
+    box-sizing: border-box;
+}
+
+.Announcements:hover{
+    cursor: pointer;
+}
