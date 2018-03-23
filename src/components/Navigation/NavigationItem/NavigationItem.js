@@ -12,6 +12,9 @@ const NavigationItem = (props) => {
 				to={props.link}>
 				{props.children}
 			</NavLink>
+			<div className="dropdown">
+				{props.dropdown}
+			</div>
 		</li>
 	)
 }

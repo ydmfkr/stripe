@@ -1,0 +1,28 @@
+.display-with-icon{
+    text-decoration: none;
+    display: flex;
+}
+
+.icon-container{
+    display: inline-flex;
+}
+
+.heading-container{
+    align-self: center;
+}
+
+.icon{
+    height: 55px;
+    width: 55px;
+    margin: 0 10px;
+    align-self: center;
+}
+
+.heading{
+    font-size: 18px;
+}
+
+.sub-heading{
+    font-size: 15px;
+    line-height: 25px;
+}
