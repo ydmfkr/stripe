@@ -4,7 +4,13 @@
     width: 350px;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 3px 12px rgba(0, 0, 0, 0.5);
+}
+
+.card-flex-relative{
+    position: relative;
+    display: flex;
+    overflow: hidden;
 }
 
 .arrow-up{
@@ -13,7 +19,6 @@
     height: 12px;
     border-right: 18px solid #00f;
     border-left: 18px solid #00f;
-
     border-radius: 10px;
 }
 

@@ -4,9 +4,9 @@ import HeaderContent from "./HeaderContent/HeaderContent"
 
 const HeaderBackgroundStripes = () => {
 	return (
-		<header className="Header">
-			<HeaderContent/>
-			<div className="HeaderBackgroundStripes">
+			<div className="Header">
+				<HeaderContent/>
+				<div className="HeaderBackgroundStripes">
 				<span className="MainBackground">
 					<span className="TopStripHolder"
 					>
@@ -20,8 +20,9 @@ const HeaderBackgroundStripes = () => {
 						<span className="BottomLeft"/>
 					</span>
 				</span>
+				</div>
 			</div>
-		</header>
+
 	)
 }
 

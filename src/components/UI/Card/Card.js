@@ -3,7 +3,7 @@ import './Card.css'
 
 const Card = (props) => {
 	return (
-		<div className="Card" style={props.cardStyle}>
+		<div className={['Card', props.cardClass].join(' ')} style={props.cardStyle}>
 
 						{props.children}
 

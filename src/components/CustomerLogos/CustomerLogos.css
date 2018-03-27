@@ -1,0 +1,43 @@
+.customer-logo-holder-link:hover .customer-logo-button-holder{
+    opacity: 1;
+}
+
+.customer-logo-holder-link:hover .customer-logo-holder{
+    filter: blur(5px);
+    margin: 0 30px;
+}
+
+.customer-logo-holder-link:hover .customer-logo{
+    height: 15px;
+}
+
+.customer-logo-holder-link{
+    text-decoration: none;
+}
+
+.customer-link-holder{
+    position: relative;
+}
+
+.customer-logo-button-holder{
+    opacity: 0;
+    z-index: 40;
+    position: absolute;
+    left: 40%;
+    top: 40% ;
+    transition: .5s all;
+}
+
+.customer-logo-holder{
+    padding: 100px 0;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    transition: .5s all;
+}
+
+.customer-logo{
+    height: 24px;
+    transition: .5s all;
+}

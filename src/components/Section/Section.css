@@ -1,0 +1,88 @@
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 500;
+    padding-top: 20px;
+}
+
+/*adjusting the heading content by adding the below classes*/
+.section-content-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-content-left {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.section-content-right {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.section-heading-holder {
+    display: block;
+}
+
+/* adjust the logo placement*/
+.section-heading-holder-side-logo {
+    display: flex;
+}
+
+
+.section-logo-left, .section-logo-right {
+    width: 40px;
+    height: 40px;
+    padding: 25px;
+    display: block;
+}
+
+
+
+/* center the logo when display is block*/
+.section-logo-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-heading {
+    display: flex;
+    color: #24b47e;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 25px;
+}
+
+.section-description {
+    display: block;
+    padding: 0 20px 20px;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.section-link {
+    padding: 20px;
+    text-decoration: none;
+    color: #6772e5;
+    font-size: 18px;
+}
+
+.section-text-right {
+    text-align: right;
+}
+
+.section-text-left {
+    text-align: left;
+}
+
+.section-text-center {
+    text-align: center;
+}
+
+/*hide the visibility of any component*/
+.section-gone {
+    display: none;
+}
+

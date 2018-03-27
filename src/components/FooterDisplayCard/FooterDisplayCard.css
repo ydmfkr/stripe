@@ -1,0 +1,25 @@
+.footer-image-wrapper {
+    display: inline;
+    align-self: center;
+    margin-left: -5%;
+}
+
+.footer-display-wrapper{
+    padding: 10px;
+}
+
+.footer-image{
+    height: 110px;
+    width: 110px;
+    padding: 20px;
+}
+
+.footer-heading{
+    color: #6772e5;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.footer-description{
+    line-height: 25px;
+}

@@ -12,8 +12,9 @@
 
 .Button:hover{
     position: relative;
-    top: -2px;
+    top: -1px;
     box-shadow: 7px 7px 25px rgba(0,0,0,0.3);
+    cursor: pointer;
 }
 
 .Default{
@@ -21,7 +22,26 @@
     background-color: white;
 }
 
+.default-light{
+    color: #6772e5;
+    background-color: white;
+}
+
+.default-light:hover{
+
+    color: rgba(103, 114, 229, .8);
+}
+
 .Primary{
     color: white;
     background-color: #3ecf8e;
+}
+
+.blue{
+    color: white;
+    background-color: #6772e5;
+}
+
+.blue:hover{
+    background-color:rgba(103, 114, 229, .8);
 }

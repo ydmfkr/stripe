@@ -1,0 +1,29 @@
+.footer-one {
+    z-index: 500;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-bottom: 120px;
+}
+
+.heading-one {
+    display: block;
+    font-size: 25px;
+    color: #6772e5;
+    margin-bottom: 10px;
+}
+
+.heading-two {
+    display: flex;
+    font-size: 25px;
+    margin-top: 10px;
+
+}
+
+.caption-holder {
+    margin-right: 150px;
+}
+
+.button-holder {
+    align-self: center;
+}
