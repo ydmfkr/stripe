@@ -13,6 +13,10 @@ import CustomerLogos from "../../components/CustomerLogos/CustomerLogos"
 
 class HomePage extends Component {
 
+	componentWillMount(){
+		this.props.changeToolbarColor('white');
+	}
+
 	getSectionOneDetails = () => {
 		return {
 			sectionAlignClass: 'section-content-left',

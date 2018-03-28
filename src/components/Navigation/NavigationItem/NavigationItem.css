@@ -4,13 +4,33 @@
 }
 
 .NavigationItem>a{
-    color: white;
     height: 100%;
     padding: 16px;
     font-weight: 600;
     margin: 5px;
     text-decoration: none;
 }
+
+.yellow>a{
+    color: yellow;
+}
+
+.red>a{
+    color: red;
+}
+
+.lightblue>a{
+    color: #1fa2ff;
+}
+
+.newblue>a{
+    color: #6772e5;
+}
+
+.white>a{
+    color: white;
+}
+
 
 .dropdown{
     visibility: hidden;
@@ -26,7 +46,6 @@
     }
 
     .NavigationItem>a{
-        color: white;
         height: 100%;
         padding: 16px;
         margin: 5px;
@@ -39,7 +58,7 @@
     }
 
     .NavigationItem>a:hover{
-        color: darkcyan;
+        color: #000;
     }
 }
 

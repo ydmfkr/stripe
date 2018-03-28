@@ -1,15 +1,16 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
+
 import './NavigationItem.css'
 
 const NavigationItem = (props) => {
 
 	return (
-		<li className="NavigationItem">
+		<li className={["NavigationItem", props.toolbarColor].join(' ')}>
 			<NavLink
-				activeClassName={props.active}
 				exact={props.exact}
-				to={props.link}>
+				to={props.link}
+			>
 				{props.children}
 			</NavLink>
 			<div className="dropdown">

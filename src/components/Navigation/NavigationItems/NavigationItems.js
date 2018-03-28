@@ -438,24 +438,28 @@ const NavigationItems = props => {
 				link="/"
 				exact
 				dropdown={dropdown1}
+				toolbarColor={props.toolbarColor}
 			>
 				Products
 			</NavigationItem>
 			<NavigationItem
 				link="/"
 				exact
-				dropdown={dropdown2}>
+				dropdown={dropdown2}
+				toolbarColor={props.toolbarColor}>
 				Developers
 			</NavigationItem>
 			<NavigationItem
 				link="/"
 				exact
-				dropdown={dropdown3}>
+				dropdown={dropdown3}
+				toolbarColor={props.toolbarColor}>
 				Company
 			</NavigationItem>
 			<NavigationItem
 				link="/"
-				exact>
+				exact
+				toolbarColor={props.toolbarColor}>
 				Pricing
 			</NavigationItem>
 		</ul>

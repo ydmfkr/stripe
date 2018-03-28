@@ -8,12 +8,14 @@ const NavigationItemsSecondary = (props) => {
 			<NavigationItem
 				link="/"
 				exact
+				toolbarColor={props.toolbarColor}
 			>
 				Support
 			</NavigationItem>
 			<NavigationItem
 				link="/"
 				exact
+				toolbarColor={props.toolbarColor}
 			>
 				Sign In
 			</NavigationItem>

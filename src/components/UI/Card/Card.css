@@ -7,20 +7,12 @@
     box-shadow: 2px 3px 12px rgba(0, 0, 0, 0.5);
 }
 
-.card-flex-relative{
+.card-flex-relative {
     position: relative;
     display: flex;
     overflow: hidden;
 }
 
-.arrow-up{
-    margin: 20px;
-    width: 12px;
-    height: 12px;
-    border-right: 18px solid #00f;
-    border-left: 18px solid #00f;
-    border-radius: 10px;
-}
 
 
 

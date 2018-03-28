@@ -1,7 +1,7 @@
 .ContainerLarge {
     max-width: 1040px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 5px;
     width: 100%;
     box-sizing: border-box;
 }
@@ -9,7 +9,7 @@
 .ContainerXLarge {
     max-width: 1160px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 5px;
     width: 100%;
     box-sizing: border-box;
 }

@@ -5,11 +5,10 @@ import './Layout.css'
 class Layout extends Component {
 
 	render() {
-
 		return (
 			<div>
 				<div>
-					<Toolbar/>
+					<Toolbar toolbarColor={this.props.toolbarColor}/>
 				</div>
 
 				<main className="Main">
